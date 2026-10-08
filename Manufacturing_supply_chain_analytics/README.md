@@ -1,6 +1,6 @@
-# Project 6 — Manufacturing & Supply Chain Analytics
+## Manufacturing & Supply Chain Analytics
 
-## Executive Summary
+##  Summary
 An enterprise-scale analytics project designed to investigate operational performance across procurement, inventory, production, logistics, quality and machine events. The project follows a realistic analytics lifecycle: identify the business problem, profile data quality, investigate with SQL, transform with dbt, build an analytical model, surface operational risks in Power BI, and translate findings into actions.
 
 ## Business Problem
@@ -147,5 +147,4 @@ The synthetic data intentionally includes realistic issues such as duplicates, i
 ## Disclaimer
 All data is synthetic and created for portfolio demonstration. It does not represent any real company, customer, supplier or operational event.
 
-## Author
-**Manjiri Hundikar**
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/9dc31455-3674-4129-9cdd-589f6ecf2f53" />
