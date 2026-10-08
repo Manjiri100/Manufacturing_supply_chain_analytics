@@ -1,0 +1,1 @@
+SELECT warehouse_id,product_id,SUM(on_hand_quantity) on_hand_quantity,SUM(inventory_value) inventory_value,AVG(on_hand_quantity-reorder_point) avg_buffer,SUM(CASE WHEN on_hand_quantity<reorder_point THEN 1 ELSE 0 END) shortage_rows FROM {{ ref('stg_inventory_snapshots') }} GROUP BY warehouse_id,product_id

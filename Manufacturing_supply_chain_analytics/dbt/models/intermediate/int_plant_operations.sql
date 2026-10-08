@@ -1,0 +1,1 @@
+SELECT plant_id,COUNT(*) production_orders,SUM(planned_quantity) planned_units,SUM(produced_quantity) produced_units,AVG(JULIANDAY(actual_end)-JULIANDAY(planned_end)) avg_delay_days FROM {{ ref('stg_production_orders') }} GROUP BY plant_id

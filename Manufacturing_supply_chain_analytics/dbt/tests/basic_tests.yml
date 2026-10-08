@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: int_supplier_performance
+    columns:
+      - name: supplier_id
+        tests: [not_null, unique]
+  - name: int_plant_operations
+    columns:
+      - name: plant_id
+        tests: [not_null, unique]

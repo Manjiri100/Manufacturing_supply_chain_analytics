@@ -1,0 +1,1 @@
+SELECT plant_id,SUM(inspected_quantity) inspected_units,SUM(failed_quantity) failed_units,SUM(failed_quantity)*1.0/NULLIF(SUM(inspected_quantity),0) failure_rate FROM {{ ref('stg_quality_inspections') }} GROUP BY plant_id

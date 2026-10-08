@@ -1,0 +1,1 @@
+SELECT p.plant_id,p.production_orders,p.planned_units,p.produced_units,p.avg_delay_days,q.failure_rate FROM {{ ref('int_plant_operations') }} p LEFT JOIN {{ ref('int_quality_risk') }} q USING(plant_id)

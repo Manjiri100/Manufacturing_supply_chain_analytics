@@ -1,0 +1,16 @@
+# Generated full-scale data
+data/generated/*.csv
+data/generated/**/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# dbt
+dbt/target/
+dbt/logs/
+
+# Power BI local files
+*.pbix

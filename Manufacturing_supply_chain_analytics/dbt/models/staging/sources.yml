@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: purchase_orders
+      - name: production_orders
+      - name: inventory_snapshots
+      - name: shipments
+      - name: machine_events
+      - name: quality_inspections
+      - name: suppliers
+      - name: products

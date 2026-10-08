@@ -1,0 +1,31 @@
+product_id,product_name,category,unit_cost
+1,Product 00001,Components,140.93
+2,Product 00002,Components,539.75
+3,Product 00003,Packaging,906.38
+4,Product 00004,Components,1095.14
+5,Product 00005,Components,1459.73
+6,Product 00006,Raw Materials,120.04
+7,Product 00007,Packaging,1244.45
+8,Product 00008,Packaging,866.87
+9,Product 00009,Components,70.64
+10,Product 00010,Finished Goods,1160.06
+11,Product 00011,Components,1283.27
+12,Product 00012,Components,571.43
+13,Product 00013,Raw Materials,954.26
+14,Product 00014,Packaging,245.66
+15,Product 00015,Packaging,315.84
+16,Product 00016,Packaging,1053.33
+17,Product 00017,Components,914.48
+18,Product 00018,Finished Goods,802.14
+19,Product 00019,Finished Goods,246.78
+20,Product 00020,Raw Materials,406.38
+21,Product 00021,Finished Goods,1027.55
+22,Product 00022,Components,345.11
+23,Product 00023,Components,1207.96
+24,Product 00024,Raw Materials,403.08
+25,Product 00025,Finished Goods,1369.88
+26,Product 00026,Packaging,320.51
+27,Product 00027,Raw Materials,594.66
+28,Product 00028,Raw Materials,216.02
+29,Product 00029,Finished Goods,371.45
+30,Product 00030,Packaging,1121.03

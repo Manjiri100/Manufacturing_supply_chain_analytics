@@ -1,0 +1,1 @@
+SELECT warehouse_id,COUNT(*) shipments,SUM(quantity) units,AVG(JULIANDAY(actual_delivery_date)-JULIANDAY(promised_delivery_date)) avg_delay_days,SUM(CASE WHEN actual_delivery_date>promised_delivery_date THEN 1 ELSE 0 END)*1.0/NULLIF(COUNT(actual_delivery_date),0) late_rate FROM {{ ref('stg_shipments') }} GROUP BY warehouse_id

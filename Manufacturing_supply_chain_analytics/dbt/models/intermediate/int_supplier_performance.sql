@@ -1,0 +1,1 @@
+SELECT supplier_id,COUNT(*) po_count,SUM(quantity*unit_cost) spend,SUM(CASE WHEN received_date>promised_date THEN 1 ELSE 0 END)*1.0/NULLIF(COUNT(received_date),0) late_rate FROM {{ ref('stg_purchase_orders') }} GROUP BY supplier_id
